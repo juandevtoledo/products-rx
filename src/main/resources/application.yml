@@ -1,0 +1,13 @@
+server:
+  port: 8091
+  context:
+    path: /rx/products
+spring:
+  webflux:
+    base-path: /products
+  application:
+    name: product-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/productdb
+
